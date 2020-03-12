@@ -41,15 +41,9 @@ body{
 #lblName{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: cornsilk;
+    font-size: 20px;
 }
-#lblName:hover {
-    font-size: xxx-large;
-    color: rgba(250, 250, 250, 0.1);
-    background-image: url(images/colors.jpg);
-    background-repeat: repeat-x;
-    -webkit-background-clip: text;
-    animation: animate 15s linear infinite;
-}
+
 /* animation */
     @keyframes animate{
         0%{
@@ -82,6 +76,15 @@ tr{
 
 
 @media screen and (min-width: 601px) {
+    #lblName:hover {
+        font-size: xxx-large;
+        color: rgba(250, 250, 250, 0.1);
+        background-image: url(images/colors.jpg);
+        background-repeat: repeat-x;
+        -webkit-background-clip: text;
+        animation: animate 15s linear infinite;
+    }
+
     td{
         color: white;
         width: 50%;
@@ -95,6 +98,16 @@ tr{
 }
 
 @media screen and (max-width: 600px) {
+
+    #lblName:hover {
+        font-size: xx-large;
+        color: rgba(250, 250, 250, 0.1);
+        background-image: url(images/colors.jpg);
+        background-repeat: repeat-x;
+        -webkit-background-clip: text;
+        animation: animate 15s linear infinite;
+    }
+
     td{
         color: white;
         width: 50%;
